@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+* {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  list-style: none;
+  font: inherit;
+   color: black ;
+   font-family:"Poppins", sans-serif; 
+   vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+img,
+data,
+span,
+input,
+button,
+select,
+textarea,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+
+}
+
+h1{
+  font-size: 2rem;
+} 
+
+h2{
+  font-size:2rem;
+}
+
+p{
+  font-size: 1.5rem;
+  /* line-height: 1.5rem; */
+}
+
+/* img {
+  width: 300%;
+  height: auto;
+} */
+
+input,
+button,
+select,
+textarea {
+  background: none;
+  font-size: inherit;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  max-width: max-content;
+  padding:0.8rem 1rem;
+  background-color: black;
+  color: white;
+  transition: all .3s;
+  border: 1px solid gray;
+  border-radius: 5rem;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+address {
+  font-style: normal;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+body {
+  font-size: inherit;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth;
+  scroll-margin-top: 10rem;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    position: fixed;
+     top: 0;
+     z-index: 16;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(220, 75, 35, 1);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+.main-side h2 h1{
+  margin-bottom: 0.5rem;
+}
+.nav-itam{
+    display: flex;
+    justify-content:space-around;
+    gap: 2rem;
+}
+.nav-itam li a:hover{
+    color: rgb(31, 31, 227);
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem;
+}
+.main-side{
+    padding: 1rem;
+}
+.hero-links{
+    display: flex;
+     gap: 1rem;
+     padding: 1rem;
+}
+.image img{
+    width: 27rem;
+    margin: auto;
+    clip-path: circle(40%);
+}
+.hero-links a{
+    padding: .5rem;
+    background: black;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.hero-links a i{
+    font-size: 2rem;
+    color: white;
+}
+.hero-links a:hover{
+    background: white;
+    
+}
+.hero-links a:hover i{
+    /* background: +white; */
+    color: black;
+
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background:greenyellow; */
+    margin: 4rem;
+    padding: 1rem;
+    gap: 3rem;
+}
+.get{
+    padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+}
+
+.get h2{
+    padding: .5rem;
+}
+.get p{
+    padding: .5rem;
+    /* font-size+: 1.5rem; */
+}
+.sec-image img{
+    border-radius: 50%;
+    width: 27rem;
+}
+.skills h2{
+    text-align: center;
+}
+.list ul{
+display: flex;
+padding: 2rem;
+margin: 2rem;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.list{
+    text-align: center;   
+}
+.contact{
+  display: flex;
+ flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  /* height: 100vh; */
+  background-color: black;
+  margin: 2rem 30rem;
+  width: 25rem;
+  border-radius: 1rem;
+
+}
+.icons-list{
+ padding: 3rem;
+ gap: 1rem;
+ /* font-size: 1rem; */
+ /* border-radius: 50%; */
+}
+.icons-list a{
+  padding: .5rem;
+  background: black;
+  border:1px solid black;
+  border-radius: 50%;
+}
+.icons-list a i{
+  font-size: 1.5rem;
+  color: white;
+}
+.icons-list a:hover{
+  background: white;
+  
+}
+.icons-list a:hover i{
+  /* background: +white; */
+  color: black;
+
+}
+.val{
+  border-left: 1px solid white;
+  height: 170px;
+}
+.input-list{
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+}
+.input-list input[type="text"],
+.input-list textarea {
+
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+   padding: .5rem;
+  
+}
